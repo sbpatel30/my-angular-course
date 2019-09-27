@@ -23,6 +23,9 @@ export class AlbumCardComponent implements OnInit {
       // Apply 10% discount
       this.newPrice = this.album.price - (this.album.price * .10);
       }
+
+      console.log("in album-card");
+
   }
   showAlbum() {
     //alert("Album selected: " + this.album.albumName);
