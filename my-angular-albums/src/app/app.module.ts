@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { AlbumsModule } from './albums/albums.module';
 import { AddAlbumComponent } from './albums/add-album/add-album.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AddAlbumComponent } from './albums/add-album/add-album.component';
     AboutComponent,
     NavbarComponent,
     NotfoundComponent,
-    AddAlbumComponent
+    AddAlbumComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
