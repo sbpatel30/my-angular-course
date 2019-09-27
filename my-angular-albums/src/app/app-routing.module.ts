@@ -5,9 +5,11 @@ import { AboutComponent } from "./about/about.component";
 import { AlbumListComponent } from "./albums/album-list/album-list.component";
 import { NotfoundComponent } from "./notfound/notfound.component";
 import { AlbumDetailsComponent } from './albums/album-details/album-details.component';
+import { AddAlbumComponent } from './albums/add-album/add-album.component';
 
 const routes: Routes = [
   { path: "albums/:id", component: AlbumDetailsComponent },
+  { path: "add-album", component: AddAlbumComponent },
   { path: "", redirectTo: "/about", pathMatch: "full" },
   { path: "about", component: AboutComponent },
   

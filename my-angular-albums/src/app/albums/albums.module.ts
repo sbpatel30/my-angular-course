@@ -5,6 +5,7 @@ import { AlbumListComponent } from "./album-list/album-list.component";
 import { AlbumsRoutingModule } from './albums-routing.module';
 import { AlbumDetailsComponent } from './album-details/album-details.component';
 
+
 @NgModule({
   declarations: [AlbumListComponent, AlbumCardComponent, AlbumDetailsComponent],
   imports: [CommonModule, AlbumsRoutingModule]
